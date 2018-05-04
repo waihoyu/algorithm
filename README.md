@@ -1,5 +1,5 @@
-# algorithm
-algorithm  算法案例练习
+# Algorithm  算法
+## Algorithm  算法案例练习
 <hr>
 
 ##  1、十进位数转换其他进制数 
