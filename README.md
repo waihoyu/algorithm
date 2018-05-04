@@ -4,7 +4,11 @@
 
 ##  1、十进位数转换其他进制数 
 ###  自己实现的代码
-
+    /**
+    * 算法思路，利用了求余、求模运算
+    * 把每次的模unshift到一个数组里面
+    * 缺点：自己实现的，方法笨拙
+    */
     function Hexade(bin, number) {
     var tmpNum = number;
     var arr = [];
