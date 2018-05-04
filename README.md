@@ -84,3 +84,26 @@
     /**
     * 算法思路：从五开始，每次加五，循环整除五，整除5次数+1，直到不能整除
     */
+    var countZero = function(num) {
+        var counter = 0;
+        var tmp = 0;
+        for (var a = 5; a <= num; a += 5) {
+            tmp = a;
+            while (tmp % 5 == 0) {
+                counter++;
+                tmp = tmp / 5;
+            }
+
+        }
+        console.log(counter);
+    }
+
+    countZero(25);
+    
+<hr>
+
+
+
+
+
+<hr>
