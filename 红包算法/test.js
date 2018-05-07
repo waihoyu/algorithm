@@ -1,4 +1,4 @@
-// es6 class关键字新增
+// es6 class关键字新增  参考答案
 class RandomHongbao {
     constructor(num) {
         // check 
